@@ -5,6 +5,7 @@ body, html {
 	color: #777;
 	width: 100% !important;
 	height: 100% !important;
+
 }
 h1 {
 	font-weight: 700;
@@ -30,7 +31,7 @@ h4 {
 }
 h5 {
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 0px;
 	line-height: 20px;
 }
 p {
@@ -162,8 +163,9 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/01.jpg) no-repeat center center fixed;
+	background: url(../img/88.jpg) no-repeat center center fixed;
 	background-color: #000;
+
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -223,11 +225,11 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 140px 0;
+	padding: 50px 0;
 	background: #FAFAFA;
 }
 #about .about-text {
-	margin-left: 100px;
+
 }
 #about H4 {
 	font-size: 20px;
@@ -261,8 +263,8 @@ hr {
 }
 /* Services Section */
 #services {
-	padding: 140px 0;
-	background: url(../img/02.jpg);
+	padding: 50px 0;
+	background: url(../img/77.jpg) ;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -290,7 +292,7 @@ hr {
 }
 /* Gallery Section */
 #works {
-	padding: 120px 0;
+	padding: 50px 0;
 	background: #FAFAFA;
 }
 .categories {
@@ -418,7 +420,7 @@ ol.type li a:hover {
 }
 /* Team Section */
 #team {
-	padding: 140px 0;
+	padding: 50px 0;
 	background: #e6e6e6;
 }
 img.img-thumbnail.team-img {
@@ -438,11 +440,11 @@ img.img-thumbnail.team-img {
 }
 /* Testimonials Section */
 #testimonials {
-	background: url(../img/03.jpg);
+	background: url(../img/55.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
-	padding: 140px 0;
+	padding: 50px 0;
 }
 #testimonials h2 {
 	color: #FAFAFA;
@@ -589,7 +591,23 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 @media (max-width: 640px) {
 #intro .intro-body H1 {
 	font-size: 30px;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+
+
 }
+}
+
+@media (max-width: 640px) {
+.img-circle{
+	width: 150px
+}
+.img-responsive{
+	width: 400px;
+
+}
+
 }
 
 
@@ -914,9 +932,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     }
 
     .modalDialog > div {
-        width: 400px;
+
         position: relative;
-        margin: 10% auto;
+        margin: 2% auto;
         padding: 5px 20px 13px 20px;
         border-radius: 10px;
         background: white
